@@ -11,7 +11,6 @@ const fs = require('fs');
 const path = require('path');
 const dir = './test/data/';
 const testFolder = './test/data';
-var growl = require('growl')
 let testCaseNames = fs.readFileSync(dir + 'description.txt', 'utf8').toString().split('\n');
 
 
@@ -89,10 +88,6 @@ describe('git_test ', function() {
 								console.log(e.request.url)
 								console.log(results[j].body)
 								console.log(e.response.body)
-							}
-							if(ar2.length !== ar1.length) {
-								growl(JSON.stringify(results[j].body));
-								break;
 							}
 		 					expect(ar2.length).to.equal(ar1.length);
 							for (let k = 0; k < ar1.length; k++) {

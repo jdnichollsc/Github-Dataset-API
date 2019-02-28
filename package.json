@@ -17,7 +17,6 @@
     "cookie-parser": "~1.4.3",
     "debug": "~2.6.3",
     "express": "~4.15.2",
-    "growl": "^1.10.5",
     "jade": "~1.11.0",
     "jsonfile": "^3.0.1",
     "lodash": "^4.17.11",
@@ -28,7 +27,5 @@
     "serve-favicon": "~2.4.2",
     "sqlite3": "^3.1.9"
   },
-  "devDependencies": {
-    "node-notifier": "^5.4.0"
-  }
+  "devDependencies": {}
 }
