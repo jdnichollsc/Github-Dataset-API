@@ -27,5 +27,7 @@
     "serve-favicon": "~2.4.2",
     "sqlite3": "^3.1.9"
   },
-  "devDependencies": {}
+  "devDependencies": {
+    "superagent": "^4.1.0"
+  }
 }
